@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animated Start</title>
+  <style>
+    body { background:#282c34; display:flex; justify-content:center; align-items:center;
+           height:100vh; }
+    h1 {
+      color:#61dafb; font-family:Arial; animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow:0 0 10px #61dafb; }
+      to { text-shadow:0 0 20px #61dafb,0 0 30px #61dafb; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Glowing Text</h1>
+</body>
+</html>
