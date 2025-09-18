@@ -8,3 +8,4 @@ public class Palindrome {
             System.out.println(str + " is Not a Palindrome");
     }
 }
+HIII
